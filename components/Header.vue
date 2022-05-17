@@ -157,8 +157,9 @@
                         leave-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
                         <div class="absolute top-12 right-28" v-if="showSearch">
                             <div>
-                                <form class="inline">
-                                    <input class="py-1 px-2 text-sm" type="text" placeholder="Keyword.." />
+                                <form class="inline" @submit.prevent="$nuxt.$emit('customSearch', query)">
+                                    <input class="py-1 border border-gray-400 rounded px-2 text-sm" type="text" placeholder="Keyword.."
+                                        v-model="query" />
                                     <span>
                                         <button type="submit" class="bg-[#fdd000] py-1 px-2 text-white text-sm">
                                             Search
@@ -181,6 +182,8 @@
 
 <script>
 export default {
+
+    emits: [],
     data() {
         return {
             showMenuCL: false,
@@ -188,6 +191,8 @@ export default {
             showMenuP: false,
             showMenuEN: false,
             showSearch: false,
+            query: "",
+            data: [],
 
             images: [
                 "/slider-one.jpg",

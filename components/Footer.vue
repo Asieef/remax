@@ -2,7 +2,9 @@
     <div class="grid grid-flow-row font-display pt-8">
         <div class="grid lg:grid-flow-col lg:grid-cols-4 px-8 py-12 grid-cols-1 gap-4 bg-[#2D363F]">
             <div class="col-span-1">
+                <NuxtLink to="/">
                 <img src="remax-logo.png" class="h-8" />
+                </NuxtLink>
             </div>
             <div class="col-span-1">
                 <ul>
@@ -25,15 +27,15 @@
             <div class="col-span-1">
                 <ul>
                     <li class="p-2 text-white">Company</li>
-                    <li class="text-xm p-2">
+                    <!-- <li class="text-xm p-2">
                         <NuxtLink to="/whatwedo" class="hover:text-white">What We Do</NuxtLink>
-                    </li>
+                    </li> -->
                     <li class="text-xm p-2">
                         <NuxtLink to="/faq" class="hover:text-white">FAQs</NuxtLink>
                     </li>
-                    <li class="text-xm p-2">
+                    <!-- <li class="text-xm p-2">
                         <NuxtLink to="/latestpost" class="hover:text-white">Latest Posts</NuxtLink>
-                    </li>
+                    </li> -->
                     <li class="text-xm p-2">
                         <NuxtLink to="/contact" class="hover:text-white">Contact</NuxtLink>
                     </li>
@@ -58,7 +60,7 @@
 
                                 <div class="flex">
                                     <button
-                                        class="text-white bg-black hover:bg-gray-700 px-4 focus:outline-none text-xs uppercase items-center font-medium">Submit</button>
+                                        class="text-white bg-[#FDD000] hover:bg-gray-700 px-4 focus:outline-none text-xs uppercase items-center font-medium">Submit</button>
                                 </div>
                             </div>
                         </form>
