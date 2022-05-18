@@ -1,5 +1,5 @@
   <template>
-    <div class="font-display h-[600px] 2xl:h-[900px]">
+    <div class="font-display h-56 lg:h-[600px] 2xl:h-[900px]">
         <div class="absolute ">
             <div v-for="i in [currentIndex]" :key="i">
                 <img :src="currentImg" />
