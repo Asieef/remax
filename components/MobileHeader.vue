@@ -105,16 +105,20 @@
                         <div class="accordion-body py-4 px-5">
                           <div class="flex justify-center">
                             <ul class="bg-white rounded-lg w-96 text-gray-900">
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg"
-                              >
-                                Selfie Stick
-                              </li>
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full"
-                              >
-                                Laptop Bag
-                              </li>
+                              <NuxtLink to="/selfiestick">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg"
+                                >
+                                  Selfie Stick
+                                </li>
+                              </NuxtLink>
+                              <NuxtLink to="/laptopbag">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full"
+                                >
+                                  Laptop Bag
+                                </li>
+                              </NuxtLink>
                             </ul>
                           </div>
                         </div>
@@ -142,29 +146,42 @@
                         <div class="accordion-body py-4 px-5">
                           <div class="flex justify-center">
                             <ul class="bg-white rounded-lg w-96 text-gray-900">
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg"
-                              >
-                                Bluetooth Speaker
-                              </li>
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full"
-                              >
-                                Wired Headphone & Earphone
-                              </li>
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full"
-                              >
-                                BT Headphone & Earphone
-                              </li>
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full"
-                              >
-                                Voice Recorder
-                              </li>
-                              <li class="px-6 py-2 w-full rounded-b-lg">
-                                Microphone
-                              </li>
+                              <NuxtLink to="/bluetoothspeaker">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg"
+                                >
+                                  Bluetooth Speaker
+                                </li>
+                              </NuxtLink>
+
+                              <NuxtLink to="/wiredheadphone">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full"
+                                >
+                                  Wired Headphone & Earphone
+                                </li>
+                              </NuxtLink>
+                              <NuxtLink to="/btheadphone">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full"
+                                >
+                                  BT Headphone & Earphone
+                                </li>
+                              </NuxtLink>
+
+                              <NuxtLink to="/voicerecorder">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full"
+                                >
+                                  Voice Recorder
+                                </li>
+                              </NuxtLink>
+
+                              <NuxtLink to="/microphone">
+                                <li class="px-6 py-2 w-full rounded-b-lg">
+                                  Microphone
+                                </li>
+                              </NuxtLink>
                             </ul>
                           </div>
                         </div>
@@ -192,11 +209,13 @@
                         <div class="accordion-body py-4 px-5">
                           <div class="flex justify-center">
                             <ul class="bg-white rounded-lg w-96 text-gray-900">
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg"
-                              >
-                                Mobile Case
-                              </li>
+                              <NuxtLink to="/mobilecase">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg"
+                                >
+                                  Mobile Case
+                                </li>
+                              </NuxtLink>
                             </ul>
                           </div>
                         </div>
@@ -225,41 +244,59 @@
                         <div class="accordion-body py-4 px-5">
                           <div class="flex justify-center">
                             <ul class="bg-white rounded-lg w-96 text-gray-900">
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg"
-                              >
-                                USB Hub
-                              </li>
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full"
-                              >
-                                Wireless Charger
-                              </li>
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full"
-                              >
-                                Power Strip
-                              </li>
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full"
-                              >
-                                USB/PD Charger
-                              </li>
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full"
-                              >
-                                Car Charger
-                              </li>
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full"
-                              >
-                                Power Bank
-                              </li>
-                              <li
-                                class="px-6 py-2 border-b border-gray-200 w-full"
-                              >
-                                Data & Charging Cable
-                              </li>
+                              <NuxtLink to="/usbhub">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg"
+                                >
+                                  USB Hub
+                                </li>
+                              </NuxtLink>
+                              <NuxtLink to="/wirelesscharger">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full"
+                                >
+                                  Wireless Charger
+                                </li>
+                              </NuxtLink>
+                              <NuxtLink to="/powerstrip">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full"
+                                >
+                                  Power Strip
+                                </li>
+                              </NuxtLink>
+
+                              <NuxtLink to="/usbcharger">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full"
+                                >
+                                  USB/PD Charger
+                                </li>
+                              </NuxtLink>
+
+                              <NuxtLinkt to="/carcharger">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full"
+                                >
+                                  Car Charger
+                                </li>
+                              </NuxtLinkt>
+
+                              <NuxtLink to="/powerbank">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full"
+                                >
+                                  Power Bank
+                                </li>
+                              </NuxtLink>
+
+                              <NuxtLink to="/chargingcable">
+                                <li
+                                  class="px-6 py-2 border-b border-gray-200 w-full"
+                                >
+                                  Data & Charging Cable
+                                </li>
+                              </NuxtLink>
                             </ul>
                           </div>
                         </div>
