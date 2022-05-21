@@ -1,7 +1,7 @@
 <template>
   <div class="font-display">
     <div
-      style="background-image: url('nav-bg.png')"
+      style="background-image: url('/nav-bg.png')"
       class="bg-cover bg-center h-16 z-20 absolute w-full"
     >
       <div class="grid grid-cols-12">

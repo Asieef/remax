@@ -1,5 +1,5 @@
 <template>
-  <div class="font-display">
+  <div class="font-display container mx-auto">
     <div class="text-center py-4 lg:text-3xl text-lg font-light">
       <h2>News</h2>
     </div>
